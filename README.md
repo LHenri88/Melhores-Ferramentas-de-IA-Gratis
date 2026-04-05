@@ -1,6 +1,6 @@
-# 🚀 Arsenal Gratuito de IA — Visioon IA
+# 🚀 Arsenal Gratuito de IA — Henri MAESTR[IA]
 
-> Compilado por **[@VisioonIA](https://youtube.com/@VisioonIA)** · Atualizado: Abril 2026  
+> Atualizado: Abril 2026  
 > Todos os links, limites reais e instruções de instalação das ferramentas do vídeo.
 
 ---
