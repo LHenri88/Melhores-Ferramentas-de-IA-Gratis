@@ -10,8 +10,6 @@
 | # | Ferramenta | Categoria | Acesso | Limite Free |
 |---|-----------|-----------|--------|-------------|
 | 1 | [Wan 2.6](#1-wan-26) | Vídeo Open Source | Local / Web | ♾️ Ilimitado local |
-| 2 | [Kling AI 3.0](#2-kling-ai-30) | Vídeo Cinematográfico | Web | 66 créditos/dia |
-| 3 | [Hailuo AI (MiniMax 2.3)](#3-hailuo-ai-minimax-23) | Vídeo com Rostos | Web | ~3 vídeos/dia |
 | 4 | [Google AI Studio](#4-google-ai-studio) | API Multimodal | Web + API | 1.500 req/dia · 1M tokens |
 | 5 | [Google Stitch](#5-google-stitch) | Design de UI/UX | Web | 350 gerações/mês (Flash) |
 | 6 | [NotebookLM](#6-notebooklm) | Pesquisa + Podcast IA | Web | 100 notebooks · 50 fontes cada |
@@ -29,7 +27,7 @@
 
 ---
 
-## 1. Wan 2.6
+## 1. Wan 2.7
 
 **Categoria:** Geração de Vídeo Open Source  
 **Site Oficial:** https://wan.video  
@@ -93,80 +91,6 @@ python generate.py \
 5. Baixe o vídeo gerado
 
 > 💡 **Dica:** Prompts em inglês têm melhor resultado. Inclua termos como `cinematic lighting`, `slow motion`, `4K`, `shallow depth of field` para resultados mais cinematográficos.
-
----
-
-## 2. Kling AI 3.0
-
-**Categoria:** Geração de Vídeo com Física Realista  
-**Site Oficial:** https://klingai.com  
-**Acesso:** Cadastro com e-mail, sem cartão de crédito
-
-### O que é
-Modelo da Kuaishou com mecanismo Spatial-Temporal Attention. Líder absoluto em simulação de física (fluidos, gravidade, inércia, cabelos, tecidos).
-
-### Capacidades
-- Geração T2V e I2V
-- Física de fluidos, partículas e gravidade realista
-- Output nativo 4K em planos pagos
-- Áudio nativo (voz + SFX + ambiente) no modelo Kling 2.6 com áudio
-- Extensão de clipes: geração inicial + extend em blocos de 5s, até 3 minutos total
-- Multi-shot: geração de cenas encadeadas
-
-### Limites Free
-| Recurso | Free Tier |
-|---------|-----------|
-| Créditos diários | **66 créditos** (renovam a cada 24h, sem rollover) |
-| Vídeo Standard 5s | 10 créditos → 6 vídeos/dia |
-| Vídeo Professional 5s | 35 créditos → 1 a 2 vídeos/dia |
-| Resolução | 720p |
-| Watermark | Sim (visível) |
-| Duração máxima | 5–10 segundos por geração |
-
-### Como usar
-1. Acesse https://klingai.com
-2. Clique em **Quick Start → Create Now**
-3. Cadastro com e-mail (sem cartão)
-4. Na tela principal, escolha **Video → Text to Video**
-5. Escreva o prompt em inglês
-6. Escolha **Standard** (economiza créditos) ou **Professional** (maior qualidade)
-7. Clique em **Generate**
-
-> 💡 **Estratégia de crédito:** Use Standard mode para testar e validar o prompt. Só use Professional no prompt aprovado.
-
----
-
-## 3. Hailuo AI (MiniMax 2.3)
-
-**Categoria:** Vídeo com Rostos Humanos  
-**Site Oficial:** https://hailuoai.video  
-**Acesso:** Login com Google
-
-### O que é
-Modelo da MiniMax com Motion Diffusion Engine. Melhor do mercado para rostos humanos expressivos, movimentos corporais naturais e anatomia correta em cenas de ação.
-
-### Capacidades
-- Alta fidelidade em faces e expressões microdetalhadas
-- Sincronismo labial preciso
-- Estabilidade anatômica em movimentos rápidos
-- 6 segundos por geração, 768p
-- Integração com avatares digitais
-
-### Limites Free
-| Recurso | Free Tier |
-|---------|-----------|
-| Créditos de boas-vindas | **200 créditos** no cadastro |
-| Refresh diário | ~3 vídeos/dia após bônus inicial |
-| Resolução | 768p |
-| Duração | 6 segundos |
-| Watermark | Sim |
-
-### Como usar
-1. Acesse https://hailuoai.video
-2. Faça login com Google
-3. Resgate os 200 créditos de boas-vindas na tela inicial
-4. Escolha **Video Generation → Text to Video** ou **Image to Video**
-5. Descreva a cena com foco em expressão facial e movimento
 
 ---
 
